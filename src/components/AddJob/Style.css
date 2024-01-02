@@ -1,0 +1,22 @@
+.fieldStyle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paperField{
+    display:flex;
+    justify-content: center;
+}
+
+.justifyCenterBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.formStyle{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: 2em;
+        width: 30%;
+}

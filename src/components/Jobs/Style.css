@@ -1,0 +1,50 @@
+.jobcard{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bgbtn {
+    background-color: #6714ff !important;
+}
+.joblogo {
+    width: 150px;
+    height: 100px;
+}
+.imgAlign {
+    display: flex;
+    justify-content: center;
+}
+.allJobs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.jobDesc {
+    margin-left:2em
+}
+
+.applyBtn {
+    justify-content: flex-end;
+}
+.mainJob {
+    display: flex;
+}
+.ads {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.subDescA{
+    display: flex;
+}
+
+@media (max-width:500px){
+    .allJobs
+    {
+        width: 100%;
+        gap:5em
+    }
+}

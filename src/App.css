@@ -1,0 +1,35 @@
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+.alignment {
+  display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    justify-content: space-between;
+}
+.hmt {
+  min-height: 100vh;
+}
+.h100 {
+  min-height: 100vh;
+  
+}
+/* Add your other styles as needed */

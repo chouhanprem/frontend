@@ -1,0 +1,35 @@
+.mainPaper{
+    width: 50%;
+    padding: 1em;
+}
+
+.mainBox{
+    display: flex;
+    justify-content: center;
+}
+.jobDesc2 {
+    margin-left: 3em;
+}
+.subDesc{
+    display: flex;
+
+}
+.titlename{
+    font-weight: bold !important;
+}
+.btnApplyJob {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+}
+@media (max-width: 500px) {
+    /* .subDesc {
+        flex-direction: column;
+    } */
+    .jobDesc2{
+        margin-left: 0em;
+    }
+    .mainPaper{
+        width: 75%;
+    }
+}

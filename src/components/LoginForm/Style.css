@@ -1,0 +1,6 @@
+.inputFIn {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 20em;
+}

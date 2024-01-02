@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #a87ef6;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  .adminBtn {
+    padding: 5px;
+    background: aliceblue;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #333;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .menu a {
+      margin: 10px 0;
+    }
+  
+    .menu-button {
+      display: flex;
+    }
+  }
+  
